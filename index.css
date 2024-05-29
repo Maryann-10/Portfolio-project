@@ -1,59 +1,47 @@
-body{
-    margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-}
- .bg-warning {
-    background-color: #ffc107 !important;
+
+   :root {
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
   }
-  .d-flex {
-    display: flex !important;
+
+  .content{
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
   }
 
   h1{
+    font-size: 96px;
     color: black;
-    font-family:"Playfair Display", serif;
+    font-family: var(--heading-font-family);
     font-weight: bold;
   }
-  h1{
-    margin-top: 0;
-    margin-bottom: .5rem;
-    line-height: 1.2;
+
+ .content h2{
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
   }
-  @media (min-width: 1200px) {
-    h1 {
-     font-size: 2.5rem;
-   }
-}
-  p{
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  .fab{
-    font-weight: 400;
-  }
-  .fab {
-    font-family: "Font Awesome 5 Brands";
-  }
-  .fab {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    box-sizing: border-box;
-  }
-  .fa-instagram::before {
-    content: "\f16d";
-  }
-  ::before {
-    box-sizing: border-box;
+  
+  h2{
+    color: black;
   }
 
-  
+  .content p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+  }
+  .btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+ 
