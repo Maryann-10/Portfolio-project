@@ -157,3 +157,33 @@
   .main-content {
     margin: 30px;
   }
+
+  nav{
+    padding: 20px 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+  }
+  .logo {
+    max-height: 40px;
+  }
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+  nav li.active a {
+    color: var(--branding-color);
+  }
+  nav a {
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+  }
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1140px;
+    }
+  }
