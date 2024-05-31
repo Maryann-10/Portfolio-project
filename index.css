@@ -111,21 +111,49 @@
     }
   }
    
-  .about-section {
+  .main {
     padding: 160px 20px;
   }
 
-  .about-section h1{
+  .main h1{
     font-size: 64px;
     line-height: 80px;
   }
   .mb-4{
     margin-bottom: 1.5rem !important;
   }
-  .about-section h2 {
+  .main h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
   }
-  .about-section-content {
+  .main-section-content {
     margin: 30px;
   }  
+  .main-section h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+  }
+
+  .main-content h1{
+    font-size: 64px;
+    line-height: 80px;
+  }
+  .main-content p {
+    font-size: 14px;
+  }
+  .main-section {
+    padding: 160px 20px;
+  }
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+  @media (max-width: 900px) {
+    .main-content {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  .main-content {
+    margin: 30px;
+  }
