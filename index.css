@@ -24,10 +24,10 @@
     font-weight: bold;
   }
   
-  h1 {
+  /* h1 {
     font-size: 96px;
     line-height: 1.5;
-  }
+  } */
   
   h2 {
     font-size: 64px;
@@ -103,83 +103,19 @@
       text-align: center;
     }
   }
-  
 
-  /* .content{
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 160px 20px;
-  }
-
-  h1{
-    /* font-size: 96px; */
-    /* color: black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-  }
-
- .content h2{
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 2;
-  font-size: 24px;
-  }
-  
-  h2{
-    color: black;
-    font-size: 64px;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-  }
-
-  .content p {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    color: #272142;
-  }
-
-  
-  .btn-branding {
-    background: var(--branding-color);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-  }
-  
-  p{
-    font-family: var(--default-font-family);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .text-muted {
-    color: #6c757d !important;
-  }
-  .btn-branding-outline {
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-  }
-
-  
   @media (max-width: 900px) {
-    h1 {
-      font-size: 44px;
-      line-height: 2;
+    .about-section {
+      text-align: center;
+      padding: 0;
     }
   }
-
+   
   .about-section {
     padding: 160px 20px;
   }
 
-  .about-section{
+  .about-section h1{
     font-size: 64px;
     line-height: 80px;
   }
@@ -192,4 +128,4 @@
   }
   .about-section-content {
     margin: 30px;
-  }  */
+  }  
