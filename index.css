@@ -6,7 +6,106 @@
     --default-font-family: "Poppins", sans-serif;
   }
 
-  .content{
+
+
+
+  body {
+    font-family: var(--default-font-family);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 96px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+  
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .content {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+  }
+  
+  .content p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+  }
+  
+  .content h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 24px;
+  }
+  
+  .btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+  .btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+  .project-desciption {
+    padding: 120px 60px;
+  }
+  .content h1{
+    font-size: 44px;
+  }
+  
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    .content {
+      padding: 80px 20px;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  
+
+  /* .content{
     background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
@@ -14,7 +113,7 @@
 
   h1{
     /* font-size: 96px; */
-    color: black;
+    /* color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
   }
@@ -40,6 +139,7 @@
     color: #272142;
   }
 
+  
   .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -67,6 +167,14 @@
     padding: 15px 30px;
   }
 
+  
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  }
+
   .about-section {
     padding: 160px 20px;
   }
@@ -84,4 +192,4 @@
   }
   .about-section-content {
     margin: 30px;
-  }
+  }  */
